@@ -1,0 +1,48 @@
+
+body{
+    background-color: #FEDEEE;
+}
+table{
+    background-color: #ffeff7;
+    width: 650px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-left: 80px;
+    text-align:center;
+    color: #545a5d;
+    font-size: 18px;
+}
+th{
+    padding-right: 80px;
+}
+tr{
+    height: 65px;
+}
+input,button{
+    height: 25px;
+    border-radius:7px;
+    border-style: groove 1px;
+    border-color: #f2f2f2;
+}
+.btnlr{
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+    background-color: #545a5d;
+}
+button{
+    margin-right: 40px;
+}
+textarea{
+    border-radius:7px;
+    border-style: groove 3px black;
+    border-color: #f2f2f2;
+
+}
+h2{
+    color: #545a5d;
+}

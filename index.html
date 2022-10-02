@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body onload="ornek()">
+    <form id="uyelikformu" name="uyelikformu" method="post" action="">
+        <div id="tablo"><table>
+            <tr>
+                <th colspan="3"><H2>ÜYELİK FORMU</H2></th>
+            </tr>
+            <tr>
+                <td><strong>AD</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="text" id="kullaniciadi" name="kullaniciadi"></td>
+            </tr>
+            <tr>
+                <td><strong>SOYAD</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="text" id="kullanicisoyadi" name="kullanicisoyadi"></td>
+            </tr>
+            <tr>
+                <td><strong>ŞİFRE</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="password" id="kullanicisifresi" name="kullanicisifresi"></td>
+            </tr>
+            <tr>
+                <td><strong>ŞİFRE (TEKRAR)</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="password" id="kullanicisifresitekrar" name="kullanicisifresitekrar"></td>
+            </tr>
+            <tr>
+                <td><strong>E-MAİL ADRESİ</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="text" id="kullaniciemail" name="kullaniciemail"></td>
+            </tr>
+            <tr>
+                <td><strong>CİNSİYET</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="radio" id="cinsiyet1" name="cinsiyet" value="erkek"><strong>ERKEK</strong>
+                    <input type="radio" id="cinsiyet2" name="cinsiyet" value="kadın"><strong>KADIN</strong></td>
+            </tr>
+            <tr>
+                <td><strong>KULLANICI NOTU</strong></td>
+                <td><strong>:</strong></td>
+                <td><textarea name="kullanicinotu" id="kullanicinotu" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>GÜVENLİK KODU</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="text" id="guvenlik" name="guvenlik"></td>
+            </tr>
+            <tr>
+                <td><strong>GÜVENLİK KODU</strong></td>
+                <td><strong>:</strong></td>
+                <td><canvas id="kodalani" width="150" height="50"></canvas></td>
+            </tr>
+            <tr>
+                <td><button onclick="degistir()" class="btnlr">KODU DEĞİŞTİR</button></td>
+                <td><input type="button" value="GÖNDER" onclick="formkontrolu()" class="btnlr"></td>
+                <td><input type="reset" value="TEMİZLE" class="btnlr"></td>
+            </tr>
+        </table></div>
+    </form>
+    
+</body>
+</html>
